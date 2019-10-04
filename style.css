@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url(bilder/duene.jpg);
+    background-attachment: fixed;
+    font-family:Comic Sans MS,Verdana,Helvetica;
+}
+
+header, nav, footer, aside, section {
+    display: block;
+}
+
+#wrapper {
+    background-color: #fff;
+    width: 900px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    text-align: left; 
+    /* background-image: url(bilder/durchsichtig8.png); */
+}
+
+header {
+    /* background-color: yellow; */
+    background-image: url(images/dogecoin-ear.jpg);
+    height: 150px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+header p {
+    /* background-color: orange; */
+    text-align: right;
+    padding-right: 15px;
+}
+
+header a {
+    color: white;
+}
+
+#logotext {
+    padding-top: 50px;
+    font-size: 20pt;
+    color: white;
+}
+
+#logosubgreentext {
+    font-size: 10pt;
+	color:green;
+	margin-right:400px;
+}
+
+#logosubredtext {
+    font-size: 10pt;
+	color:red;
+	margin-right:100px;
+}
+
+#logosubbluetext {
+    font-size: 10pt;
+	color:blue;
+	margin-right:600px;
+}
+
+#steuerungoben {
+    /* background-color: red; */
+    background-image: url(bilder/grau-50.png);
+    height: 24px;
+}
+
+#steuerungoben ul {
+    list-style-type: none;
+}
+
+#steuerungoben li {
+    display: inline;
+}
+
+#steuerungoben a {
+    width: 230px;
+    /* background-color: yellow; */
+    float: left;
+    /* border-right: 1px solid red; */
+    text-align: center;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+#steuerungoben a:hover {
+    background-image: url(bilder/grau-50.png);
+} 
+
+#steuerunglinks {
+    /* background-color: green; */
+    width: 150px;
+    float: left;
+	position: fixed;
+}
+
+#steuerunglinks ul li {
+    list-style-type: none;
+	margin-top:10px;
+	width:120px;
+	padding:5px;
+	background:#dd9661; /*the colour of the button*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align:center;
+}
+
+#steuerunglinks ul li a {
+	text-decoration:none;
+	color:white;
+	font-size:1.1em;
+}
+
+
+aside {
+     background-color: #808000; 
+    width: 150px;
+    float: right;
+}
+
+aside p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+aside img {
+    /* margin-left: 10px; */ 
+    border:1px solid silver;
+}
+
+section {
+    /* background-color: orange; */
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+section h1 {
+    padding-top: 20px;
+    padding-bottom: 0.4em;
+    color: #dd9661;
+}
+
+section h2 {
+    color: #dd9661;
+    padding-top: 1em;
+    padding-bottom: 0.6em;
+    font-size: 14pt;
+}
+
+section p,table {
+    padding-bottom: 1em;
+	padding-left: 1em;
+}
+
+section ul, section ol  {
+    padding-left: 3em;
+}
+
+footer {
+    /* background-color: brown; */
+    background-image: url(bilder/grau-50.png);
+    color: #dd9661;
+    text-align: center;
+    clear: both;
+} 
+
+table {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+ /***FIRST STYLE THE BUTTON***/
+input#gobutton{
+margin-top:10px;
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#dd9661; /*the colour of the button*/
+border:1px solid #dd9661; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+
+/*style the text*/
+color:white;
+font-size:1.1em;
+}
